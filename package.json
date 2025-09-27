@@ -1,0 +1,23 @@
+{
+  "name": "rest-api-swagger",
+  "version": "1.0.0",
+  "description": "REST API dengan sistem plugin dan dokumentasi Swagger berwarna ungu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["rest-api", "swagger", "express", "plugins"],
+  "author": "v0",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
